@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="theme-base-{{site.color-scheme}}">
+    <div class="wrap">
+      <header class="masthead">
+        <div class="container">
+          <a id='name' href="{% link index.md %}">K. Takatsu</a>
+           <div class="span">
+            <a href="{% link papers.md %}">Papers</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="container content" id="main">
+        {{ content }}
+      </main>
+    </div>
+
+    <div class="container" id="footer">
+        <hr>
+        <div class='container links'>
+          <a href="https://github.com/Kenta426" rel='nofollow'><img src="/assets/images/github.png"></a>
+            <a href="https://scholar.google.com/citations?user=xBePphQAAAAJ&hl=en" rel='nofollow'><img src="/assets/images/Google-scholar-logo-black-circle.png"></a>
+          <a href="https://letterboxd.com/Kenta426/" rel='nofollow'><img src="/assets/images/letterboxd.png"></a>
+        </div>
+        <div class='copyright'>
+            <small>Website template provided by <a href="https://benchugg.com/">Ben Chugg</a> from CMU, with gratitude. Thank you!</small>
+        </div>
+      </div>
+    </div>
+<!-- Facebook SDK for JavaScript -->
+
+  </body>
+</html>
