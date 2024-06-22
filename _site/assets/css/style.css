@@ -363,4 +363,32 @@ pre code { padding: 0; font-size: 100%; color: inherit; background-color: transp
 
 .papers .papers-table #highlight { color: green; }
 
+.note { color: black; }
+
+.note #back { color: navy; }
+
+.note a { color: lightslategray; }
+
+.note #date { text-align: center; color: gray; font-size: 10pt; padding-top: 10px; }
+
+.note #markdown-toc { padding-bottom: 20px; }
+
+.note #markdown-toc a { color: navy; }
+
+.note #markdown-toc li ul { padding-bottom: 0; margin-bottom: 0; }
+
+.note .title { padding-top: 20px; font-size: 18pt; text-align: center; padding-bottom: 0; margin-bottom: 0; width: 80%; margin-right: auto; margin-left: auto; }
+
+.note h1 { font-weight: bold; font-size: 16pt; padding-bottom: 15px; padding-top: 20px; }
+
+.note h2 { font-size: 14pt; font-weight: bold; padding-top: 16px; }
+
+.note h3 { font-weight: bold; }
+
+.note .caption { font-size: 10pt; color: gray; margin-left: 20px; margin-right: 20px; }
+
+.note { text-align: justify; }
+
+.note img { padding-top: 20px; display: block; margin-left: auto; margin-right: auto; width: 50%; }
+
 /*# sourceMappingURL=style.css.map */

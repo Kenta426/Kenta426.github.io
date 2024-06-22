@@ -9,7 +9,8 @@ image: /assets/images/manuscript.jpeg
 <div class='papers'>
 
 
-  {% assign categories = "Under Review (Statistics/Econometrics)|Publication in Computer Science" | split: "|" %}
+  {% assign categories = "Selected Papers"|"Publication in Statistics"|"Preprint"| split: "|" %}
+
 
 
   {% for cat in categories %}
@@ -27,12 +28,12 @@ image: /assets/images/manuscript.jpeg
     {% if pub.publication != nil %}
       <em>{{ pub.publication }}</em> | 
     {% endif %}
-    {% if pub.highlight != nil %} 
-        <span id='highlight'>({{ pub.highlight }})</span> |
-    {% endif %}
     <a href='{{ pub.link }}'>paper</a>
     {% if pub.code != nil %} 
        | <a href='{{ pub.code }}'>code</a>
+    {% endif %}
+    {% if pub.highlight != nil %} 
+       <br><span id='highlight'>{{ pub.highlight }}</span> 
     {% endif %}
   </td> 
   <td>

@@ -3,7 +3,7 @@
 # Setup
 title:               kenta
 tagline:             'the website'
-description:         'sigh...leave me alone'
+description:         'My scattered minds'
 url:                 'http://minicomp.github.io'
 baseurl:             ''
 
@@ -23,10 +23,10 @@ encoding: utf-8
 
 # Collections for texts
 collections:
-  texts:
-    output: true
   papers:
     ourput: false
+  notes:
+    output: true
 
 # Markdown specs
 markdown: kramdown
