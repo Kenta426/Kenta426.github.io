@@ -12,11 +12,10 @@ image: /assets/images/manuscript.jpeg
   {% assign categories = "Selected Papers"|"Publication in Statistics"|"Preprint"| split: "|" %}
 
 
-
   {% for cat in categories %}
 
   <h1>{{ cat }} </h1>
-
+  (A full list can be found <a href='https://scholar.google.com/citations?user=xBePphQAAAAJ&hl=en'>here</a>.)
   {% assign publications = site.papers | sort: "date" | reverse | where_exp: "item", "item.category == cat"%}
 
   <table class='papers-table'>
@@ -25,21 +24,24 @@ image: /assets/images/manuscript.jpeg
   <td>
    <div class="pubtitle">{{ pub.title }}</div>
     <div class="pubauthors">{{ pub.authors }}.</div>
-    {% if pub.publication != nil %}
-      <em>{{ pub.publication }}</em> | 
+    {% if pub.link != nil %}
+       <a href='{{ pub.link }}'>arXiv</a>,
     {% endif %}
-    <a href='{{ pub.link }}'>paper</a>
+    {% if pub.publication != nil %}
+       <em>{{ pub.publication }},</em> 
+    {% endif %}
+    {% if pub.year != nil %} 
+        <em>{{ pub.year }}</em> 
+    {% endif %}
     {% if pub.code != nil %} 
-       | <a href='{{ pub.code }}'>code</a>
+       &middot; <a href='{{ pub.code }}'>code</a>
+    {% endif %}
+    {% if pub.slide != nil %} 
+       &middot; <a href='{{ pub.slide }}'>slide</a>
     {% endif %}
     {% if pub.highlight != nil %} 
        <br><span id='highlight'>{{ pub.highlight }}</span> 
     {% endif %}
-  </td> 
-  <td>
-    <div class="pubinfo">
-        {{ pub.year }}
-    </div>
   </td>
   </tr>
   {% endfor %}

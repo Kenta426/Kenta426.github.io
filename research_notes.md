@@ -4,8 +4,7 @@ title: Notes
 ---
 
 
-<hr>
-
+<div class='notes'>
 {% assign notesByYear = site.notes | where_exp: "item", "item.status == 'published'" |
 sort: "date" | reverse | group_by_exp:"item", "item.date | date: '%Y'"%}
 
@@ -19,3 +18,4 @@ sort: "date" | reverse | group_by_exp:"item", "item.date | date: '%Y'"%}
       {% endfor %}
     </ul>
 {% endfor %}
+</div>
