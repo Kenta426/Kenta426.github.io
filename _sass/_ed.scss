@@ -101,7 +101,7 @@ body {
 /* Links */
 a, .text-title a {
   // color: $link-color;
-  color: navy;
+  color: green;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ blockquote {
   padding: 0rem 1.5rem 0rem 2rem;
   margin: 0 0 20px 0;
   color: $text-color;
-  border-left: solid 2px navy;
+  border-left: solid 2px green;
   // font-style: italic;
 }
 
@@ -261,7 +261,7 @@ tbody tr:nth-child(odd) th {
   margin-left: 0;
   margin-right: 0;
   #name {
-    color: navy;
+    color: green;
     font-weight: bold;
   }
   a {
