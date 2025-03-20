@@ -28,7 +28,7 @@ image: /assets/images/manuscript.jpeg
        <a href='{{ pub.link }}'>arXiv</a>,
     {% endif %}
     {% if pub.publication != nil %}
-       <em>{{ pub.publication }},</em> 
+       <a href='{{ pub.link2 }}'><em>{{ pub.publication }},</em></a>
     {% endif %}
     {% if pub.year != nil %} 
         <em>{{ pub.year }}</em> 
