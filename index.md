@@ -12,6 +12,6 @@ Broadly speaking, I am interested in non-standard problems in statistics. My res
 1. Minimax and efficiency theory for non-smooth/irregular problems
 2. Projection onto tangent cones and their behavior on the boundary
 3. Model selection under dependent and heavy-tailed data
-4. \{Non/semi-parametric, shape-restricted, dimension-agnostic\} inference
+4. \{Non/semi-parametric, shape-restricted, adaptive\} inference
 5. Analysis of self-normalized and ratio limit processes
 6. Geometry of statistical irregularity

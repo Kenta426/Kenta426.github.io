@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: "Bridging root-n and non-standard asymptotics:  <br>dimension-agnostic adaptive inference in M-Estimation"
+title: "Bridging root-n and non-standard asymptotics:  <br>adaptive inference in M-Estimation"
 authors: Kenta Takatsu and Arun Kuchibhotla
 year: 2025+
 date: "2025-1-08"
