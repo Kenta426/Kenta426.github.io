@@ -7,4 +7,5 @@ date: "2025-1-08"
 link: https://arxiv.org/abs/2501.07772
 slide: "../assets/files/M-estimation.pdf"
 category: Selected Papers
+highlight: Best Student Paper at IISA 2025
 ---
