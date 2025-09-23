@@ -15,3 +15,6 @@ Broadly speaking, I am interested in non-standard problems in statistics. My res
 4. \{Non/semi-parametric, shape-restricted, adaptive\} inference
 5. Analysis of self-normalized and ratio limit processes
 6. Geometry of statistical irregularity
+
+I am also one of the inaugural organizers of the [Variational Analysis and Statistical Theory Reading Group](https://vast-cmu.github.io/vast-public/)
+ at CMU.

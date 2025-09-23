@@ -7,5 +7,6 @@ year: 2024+
 date: "2024-07-12"
 link: https://arxiv.org/abs/2307.05732
 category: Selected Papers
+slide: "../assets/files/isotonic.pdf"
 code: https://github.com/Kenta426/npparam
 ---
