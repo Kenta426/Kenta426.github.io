@@ -3,8 +3,9 @@ layout: default
 title: "K. Takatsu"
 ---
 
-I am a Ph.D. student in the [Department of Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) 
-at Carnegie Mellon University, where I am fortunate to be advised by [
+I am an assistant professor (a term appointment) of Statistics at Columbia University. 
+I have received a Ph.D. in Statistics from the [Department of Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) 
+at Carnegie Mellon University, where I was advised by [
 Arun Kumar Kuchibhotla.
 ](https://arun-kuchibhotla.github.io/)
 
@@ -16,5 +17,5 @@ Broadly speaking, I am interested in non-standard problems in statistics. My res
 5. Analysis of self-normalized and ratio limit processes
 6. Geometry of statistical irregularity
 
-I am also one of the inaugural organizers of the [Variational Analysis and Statistical Theory Reading Group](https://vast-cmu.github.io/vast-public/)
+I was also one of the inaugural organizers of the [Variational Analysis and Statistical Theory Reading Group](https://vast-cmu.github.io/vast-public/)
  at CMU.
